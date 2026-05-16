@@ -6,6 +6,6 @@ commit-msg:
 pre-commit:
   parallel: true
   commands:
-    validate-skills:
+    skillcheck:
       glob: "skills/**/*"
-      run: pnpm exec ts-node scripts/validate-staged-skills.ts {staged_files}
+      run: pnpm exec ts-node scripts/skillcheck.ts {staged_files}

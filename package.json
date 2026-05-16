@@ -8,7 +8,7 @@
   "packageManager": "pnpm@11.1.2",
   "scripts": {
     "prepare": "lefthook install",
-    "skillcheck": "ts-node scripts/validate-staged-skills.ts --all"
+    "skillcheck": "ts-node scripts/skillcheck.ts --all"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.0.1",
