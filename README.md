@@ -34,7 +34,7 @@ Copilot, Cursor, and others.
 |-------|--------------|
 | [`jupyter`](skills/jupyter) | Create and structure Jupyter notebooks with a consistent layout and Ruff validation. |
 | [`research`](skills/research) | Manage and query a repository-local library of papers and reference implementations. |
-| [`skill-writer`](skills/skill-writer) | Author new Agent Skills that follow the specification. |
+| [`skillup`](skills/skillup) | Author new Agent Skills that follow the specification. |
 
 ## Getting started
 
@@ -91,7 +91,7 @@ npx skills init my-skill
 npx skills add <owner>/<repo>
 ```
 
-For a guided walkthrough of writing a skill, use the [`skill-writer`](skills/skill-writer)
+For a guided walkthrough of writing a skill, use the [`skillup`](skills/skillup)
 skill in this collection.
 
 ## Repository layout

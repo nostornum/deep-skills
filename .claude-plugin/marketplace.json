@@ -12,7 +12,7 @@
     {
       "name": "deep-skills",
       "source": "./",
-      "description": "Curated Agent Skills for Python and deep-learning projects: uv, ruff, ty, tyro, msgspec, polars, einx, jupyter, research, and skill-writer."
+      "description": "Curated Agent Skills for Python and deep-learning projects: uv, ruff, ty, tyro, msgspec, polars, einx, jupyter, research, and skillup."
     }
   ]
 }

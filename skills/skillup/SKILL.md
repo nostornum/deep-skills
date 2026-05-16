@@ -1,5 +1,5 @@
 ---
-name: skill-writer
+name: skillup
 description: Guide users through creating Agent Skills. Use when the user wants to create, write, author, or design a new Skill, or needs help with SKILL.md files, frontmatter, or skill structure.
 license: MIT
 metadata:
