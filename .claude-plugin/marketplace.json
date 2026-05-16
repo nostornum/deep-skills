@@ -1,0 +1,18 @@
+{
+  "name": "deep-skills",
+  "owner": {
+    "name": "nostornum",
+    "email": "nostornum@gmail.com"
+  },
+  "metadata": {
+    "description": "Agent Skills for Python and deep-learning projects.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "deep-skills",
+      "source": "./",
+      "description": "Curated Agent Skills for Python and deep-learning projects: uv, ruff, ty, tyro, msgspec, polars, einx, jupyter, research, and skill-writer."
+    }
+  ]
+}

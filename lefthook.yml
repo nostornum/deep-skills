@@ -1,0 +1,11 @@
+commit-msg:
+  commands:
+    commitlint:
+      run: pnpm exec commitlint --edit {1}
+
+pre-commit:
+  parallel: true
+  commands:
+    validate-skills:
+      glob: "skills/**/*"
+      run: pnpm exec ts-node scripts/validate-staged-skills.ts {staged_files}

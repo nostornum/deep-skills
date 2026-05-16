@@ -1,0 +1,7 @@
+# Allow lefthook's postinstall to run (installs the git-hook binary).
+allowBuilds:
+  lefthook: true
+
+# Only install package versions at least 3 days old (4320 minutes)
+# to reduce the risk of pulling a freshly compromised release.
+minimumReleaseAge: 4320

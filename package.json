@@ -1,0 +1,23 @@
+{
+  "name": "deep-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curated Agent Skills for Python and deep-learning projects.",
+  "license": "MIT",
+  "author": "nostornum <nostornum@gmail.com>",
+  "packageManager": "pnpm@11.1.2",
+  "scripts": {
+    "prepare": "lefthook install",
+    "skillcheck": "ts-node scripts/validate-staged-skills.ts --all"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.0.1",
+    "@commitlint/config-conventional": "^21.0.1",
+    "@commitlint/types": "^21.0.1",
+    "@types/node": "^25",
+    "lefthook": "^2.1.6",
+    "skills-ref": "^0.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
