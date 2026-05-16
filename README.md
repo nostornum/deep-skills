@@ -35,6 +35,7 @@ Copilot, Cursor, and others.
 | [`jupyter`](skills/jupyter) | Create and structure Jupyter notebooks with a consistent layout and Ruff validation. |
 | [`research`](skills/research) | Manage and query a repository-local library of papers and reference implementations. |
 | [`skillup`](skills/skillup) | Author new Agent Skills that follow the specification. |
+| [`lefthook`](skills/lefthook) | Configure and manage git hooks with lefthook. |
 
 ## Getting started
 
@@ -68,7 +69,7 @@ install the bundle in two commands:
 /plugin install deep-skills@deep-skills
 ```
 
-All ten skills become available in that session.
+All eleven skills become available in that session.
 
 ### Manually
 
